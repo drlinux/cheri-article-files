@@ -1,0 +1,64 @@
+2014-08-02 06:58:25.649 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-08-02 06:58:25.731 [info] <0.2.0>@boss_load:load_all_modules:57 Loading application chericart
+2014-08-02 06:58:25.732 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/source/chericart/src/mail/chericart_outgoing_mail_controller.erl" with options [{out_dir,"ebin"},{include_dirs,["/source/chericart/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-08-02 06:58:25.773 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/source/chericart/src/mail/chericart_incoming_mail_controller.erl" with options [{out_dir,"ebin"},{include_dirs,["/source/chericart/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-08-02 06:58:25.779 [info] <0.2.0>@boss_controller_compiler:compile:59 Compile controller /source/chericart/src/controller/chericart_world_controller.erl
+2014-08-02 06:58:25.779 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/source/chericart/src/controller/chericart_world_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,"ebin"},{include_dirs,["/source/chericart/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-08-02 06:58:25.786 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/source/chericart/src/view/lib/tag_modules/chericart_custom_tags.erl" with options [{out_dir,"ebin"},{include_dirs,["/source/chericart/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-08-02 06:58:25.794 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/source/chericart/src/view/lib/filter_modules/chericart_custom_filters.erl" with options [{out_dir,"ebin"},{include_dirs,["/source/chericart/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-08-02 06:58:25.800 [info] <0.2.0>@boss_load:compile_view_dir_erlydtl:308 Compile Modules "src/view/lib/tag_html"  chericart_view_lib_tags
+2014-08-02 06:58:32.448 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-08-02 06:58:32.532 [info] <0.2.0>@boss_load:load_all_modules:57 Loading application chericart
+2014-08-02 06:58:32.587 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/source/chericart/src/mail/chericart_outgoing_mail_controller.erl" with options [{out_dir,"ebin"},{include_dirs,["/source/chericart/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-08-02 06:58:32.719 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/source/chericart/src/mail/chericart_incoming_mail_controller.erl" with options [{out_dir,"ebin"},{include_dirs,["/source/chericart/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-08-02 06:58:32.724 [info] <0.2.0>@boss_controller_compiler:compile:59 Compile controller /source/chericart/src/controller/chericart_world_controller.erl
+2014-08-02 06:58:32.724 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/source/chericart/src/controller/chericart_world_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,"ebin"},{include_dirs,["/source/chericart/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-08-02 06:58:32.731 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/source/chericart/src/view/lib/tag_modules/chericart_custom_tags.erl" with options [{out_dir,"ebin"},{include_dirs,["/source/chericart/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-08-02 06:58:32.735 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/source/chericart/src/view/lib/filter_modules/chericart_custom_filters.erl" with options [{out_dir,"ebin"},{include_dirs,["/source/chericart/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-08-02 06:58:32.741 [info] <0.2.0>@boss_load:compile_view_dir_erlydtl:308 Compile Modules "src/view/lib/tag_html"  chericart_view_lib_tags
+2014-08-03 15:13:06.070 [info] <0.7.0> Application lager started on node chericart@6afd3a47f717
+2014-08-03 15:13:06.080 [info] <0.7.0> Application crypto started on node chericart@6afd3a47f717
+2014-08-03 15:13:06.103 [info] <0.7.0> Application mimetypes started on node chericart@6afd3a47f717
+2014-08-03 15:13:06.153 [info] <0.94.0> Starting Boss in development mode....
+
+2014-08-03 15:13:06.155 [notice] <0.62.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2014-08-03 15:13:06.171 [info] <0.94.0>@boss_db:start:77 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2014-08-03 15:13:06.241 [info] <0.94.0> Starting master services on chericart@6afd3a47f717
+
+2014-08-03 15:13:06.265 [info] <0.7.0> Application tinymq started on node chericart@6afd3a47f717
+2014-08-03 15:13:06.894 [info] <0.94.0> SSL:[]
+
+2014-08-03 15:13:06.901 [info] <0.94.0> Starting cowboy... on chericart@6afd3a47f717
+
+2014-08-03 15:13:06.906 [info] <0.7.0> Application cowlib started on node chericart@6afd3a47f717
+2014-08-03 15:13:06.913 [info] <0.7.0> Application ranch started on node chericart@6afd3a47f717
+2014-08-03 15:13:06.931 [info] <0.7.0> Application cowboy started on node chericart@6afd3a47f717
+2014-08-03 15:13:06.931 [info] <0.94.0> Starting http listener... on 0.0.0.0:8001 
+
+2014-08-03 15:13:07.007 [warning] <0.6.0> lager_error_logger_h dropped 33 messages in the last second that exceeded the limit of 50 messages/sec
+2014-08-03 15:13:07.007 [info] <0.262.0> Loading routes from "/source/chericart/priv/chericart.routes" ....
+2014-08-03 15:13:07.022 [info] <0.94.0>@boss_load:load_all_modules:57 Loading application chericart
+2014-08-03 15:13:07.048 [info] <0.94.0>@boss_load:compile_view_dir_erlydtl:308 Compile Modules "src/view/lib/tag_html"  chericart_view_lib_tags
+2014-08-03 15:13:07.130 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/source/chericart/priv/init/chericart_01_news.erl" with options [{include_dirs,["/source/chericart/include"]}] 
+2014-08-03 16:07:33.547 [info] <0.7.0> Application lager started on node chericart@0892e0a81ce0
+2014-08-03 16:07:33.565 [info] <0.7.0> Application crypto started on node chericart@0892e0a81ce0
+2014-08-03 16:07:33.588 [info] <0.7.0> Application mimetypes started on node chericart@0892e0a81ce0
+2014-08-03 16:07:33.629 [notice] <0.62.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2014-08-03 16:07:33.651 [info] <0.94.0> Starting Boss in development mode....
+
+2014-08-03 16:07:33.665 [info] <0.94.0>@boss_db:start:77 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2014-08-03 16:07:33.729 [info] <0.94.0> Starting master services on chericart@0892e0a81ce0
+
+2014-08-03 16:07:33.756 [info] <0.7.0> Application tinymq started on node chericart@0892e0a81ce0
+2014-08-03 16:07:34.386 [info] <0.94.0> SSL:[]
+
+2014-08-03 16:07:34.395 [info] <0.94.0> Starting cowboy... on chericart@0892e0a81ce0
+
+2014-08-03 16:07:34.402 [info] <0.7.0> Application cowlib started on node chericart@0892e0a81ce0
+2014-08-03 16:07:34.410 [info] <0.7.0> Application ranch started on node chericart@0892e0a81ce0
+2014-08-03 16:07:34.433 [info] <0.7.0> Application cowboy started on node chericart@0892e0a81ce0
+2014-08-03 16:07:34.433 [info] <0.94.0> Starting http listener... on 0.0.0.0:8001 
+
+2014-08-03 16:07:34.525 [info] <0.94.0>@boss_load:load_all_modules:57 Loading application chericart
+2014-08-03 16:07:34.555 [info] <0.94.0>@boss_load:compile_view_dir_erlydtl:308 Compile Modules "src/view/lib/tag_html"  chericart_view_lib_tags
+2014-08-03 16:07:34.649 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/source/chericart/priv/init/chericart_01_news.erl" with options [{include_dirs,["/source/chericart/include"]}] 
